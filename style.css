@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#icono{
+    display: block;
+}
+#textAreaEntrada, #textAreaSalida{
+    resize: none;
+    border: none;
+    width: 50vh;
+}
+
+#btnCopiar{
+    display: block;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="codigo.js" async></script>
+    <title>Encriptador ElProgramadorDelTiempo</title>
+  </head>
+  <body>
+    <header>
+      <img src="./imgs/Logo.svg" alt="logo" />
+    </header>
+    <main>
+      <div id="contenedorPrincipal">
+        <textarea
+          name="textAreaEntrada"
+          id="textAreaEntrada"
+          cols="30"
+          rows="30"
+        ></textarea>
+        <img id="icono" src="./imgs/Icono.svg" alt="icono" />
+        <p>Solo letras minúsculas y sin acentos</p>
+        <button id="btnEncriptar">Encriptar</button>
+        <button id="btnDesencriptar">Desencriptar</button>
+      </div>
+      <div id="divContenedorSecundario" style="display: none">
+        <textarea
+          name="textAreaSalida"
+          id="textAreaSalida"
+          cols="30"
+          rows="30"
+        ></textarea>
+        <img id="dibujo" src="./imgs/Dibujo.svg" alt="muñeco" />
+        <p id="mensaje">
+          <span>Ningún mensaje fue encontrado</span> <br />
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+        <button id="btnCopiar">Copiar</button>
+      </div>
+    </main>
+  </body>
+</html>
